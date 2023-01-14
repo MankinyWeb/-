@@ -1,0 +1,78 @@
+body {
+    background-image:url('backgroud.png');
+    background-size: 750px 750px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+div.transbox {
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+#text-fade-in {
+    text-align: center;
+    display: inline-block;
+    font-family: Arial, sans-serif, helvetica;
+    animation: fadeIn ease-out 3s;
+    -webkit-animation: fadeIn ease-out 3s;
+    -moz-animation: fadeIn ease-out 3s;
+    -o-animation: fadeIn ease-out 3s;
+    -ms-animation: fadeIn ease-out 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.mid {
+    text-align: center;
+    margin-left: 75px;
+}
